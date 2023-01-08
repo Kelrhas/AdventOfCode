@@ -1,7 +1,7 @@
 # AdventOfCode
 
-Please visit [AoC website(https://adventofcode.com/)] to learn more.
-And the [subreddit(https://www.reddit.com/r/adventofcode/)]
+Please visit [AoC website](https://adventofcode.com/) to learn more.
+And the [subreddit](https://www.reddit.com/r/adventofcode/) for the community and answers shared.
  
 ## 2021 
 This was the first year I discovered AoC, and thus doing every challenge the day they released, with some (hard) exceptions.
