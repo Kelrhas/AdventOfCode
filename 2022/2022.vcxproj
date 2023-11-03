@@ -85,7 +85,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BigInt.cpp" />
     <ClCompile Include="Day10.cpp" />
     <ClCompile Include="Day11.cpp" />
     <ClCompile Include="Day12.cpp" />
@@ -128,7 +127,6 @@
     <Text Include="Data23.txt" />
     <Text Include="Data24.txt" />
     <Text Include="Data25.txt" />
-    <ClInclude Include="BigInt.h" />
     <ClCompile Include="Day1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClInclude Include="Day17.h" />

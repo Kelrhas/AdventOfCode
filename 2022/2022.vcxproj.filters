@@ -27,9 +27,6 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BigInt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Day2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -114,9 +111,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Day22.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BigInt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Day17.h">

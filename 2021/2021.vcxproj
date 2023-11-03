@@ -99,7 +99,6 @@
     <Text Include="Data23.txt" />
     <Text Include="Data24.txt" />
     <Text Include="Data25.txt" />
-    <ClInclude Include="BigInt.h" />
     <ClInclude Include="Day1.h" />
     <ClCompile Include="main.cpp" />
     <ClInclude Include="Day2.h" />
