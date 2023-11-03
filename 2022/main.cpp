@@ -85,7 +85,8 @@ int main(int argc, char **argv)
 		case 25:	Day25::Solve();	if (day != 0) break; else cout << endl; [[fallthrough]];
 		default: assert(day == 0); break;
 	}
-			
+
+
 	QueryPerformanceCounter(&timeEnd);
 	QueryPerformanceFrequency(&freq);
 	cout << endl << "Found in ";

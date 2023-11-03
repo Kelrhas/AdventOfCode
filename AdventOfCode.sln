@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E1001CD-FA67-42E1-B93B-E9948535F2F7}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\Plop\Externals\glm\util\glm.natvis = ..\..\Plop\Externals\glm\util\glm.natvis
+		Common\stl_includes.h = Common\stl_includes.h
+		Common\Types.h = Common\Types.h
+		Common\Util.h = Common\Util.h
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2022", "2022\2022.vcxproj", "{DECE248E-2022-47D5-AC5E-2BBFB6B22C04}"
