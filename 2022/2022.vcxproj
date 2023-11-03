@@ -129,9 +129,6 @@
     <Text Include="Data25.txt" />
     <ClCompile Include="Day1.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClInclude Include="Day17.h" />
-    <ClInclude Include="Day18.h" />
-    <ClInclude Include="Day19.h" />
     <Text Include="Data3.txt" />
     <Text Include="Data4.txt" />
     <Text Include="Data5.txt" />
@@ -142,12 +139,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Data1.txt" />
-    <ClInclude Include="Day20.h" />
-    <ClInclude Include="Day21.h" />
-    <ClInclude Include="Day22.h" />
-    <ClInclude Include="Day23.h" />
-    <ClInclude Include="Day24.h" />
-    <ClInclude Include="Day25.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
