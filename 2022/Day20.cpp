@@ -18,7 +18,8 @@ namespace Day20
 		}
 
 
-		auto Run = [](CircleList<S64> circle, int nbRoll, size_t multiplier) {
+		auto Run = [=](const CircleList<S64> &circleCopy, int nbRoll, size_t multiplier) {
+			CircleList<S64> circle	 = circleCopy;
 			S64	 NB_INPUT = (int)circle.size();
 			bool debug	  = false;
 			if (debug)
