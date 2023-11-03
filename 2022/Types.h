@@ -13,12 +13,12 @@ const U8 CONSOLE_WHITE_BACKGROUND = 0xF0;
 const U8 CONSOLE_GREEN			  = 0x0A;
 const U8 CONSOLE_RED			  = 0x0C;
 
-#include <D:\Prog\Plop\Externals\glm\glm\glm.hpp>
-#include <D:\Prog\Plop\Externals\glm\glm\gtc\matrix_transform.hpp>
-#include <D:\Prog\Plop\Externals\glm\glm\gtx\transform.hpp>
-#include <D:\Prog\Plop\Externals\glm\glm\gtx\rotate_vector.hpp>
+#include <glm/glm/glm.hpp>
+#include <glm/glm/gtc/matrix_transform.hpp>
+#include <glm/glm/gtx/transform.hpp>
+#include <glm/glm/gtx/rotate_vector.hpp>
 #define GLM_ENABLE_EXPERIMENTAL
-#include <D:\Prog\Plop\Externals\glm\glm\/gtx/hash.hpp>
+#include <glm/glm/gtx/hash.hpp>
 
 template<typename cT>
 std::basic_ostream<cT> &operator<<(std::basic_ostream<cT> &out, glm::vec2 const &_vec)
