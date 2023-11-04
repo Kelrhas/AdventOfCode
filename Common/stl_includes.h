@@ -18,6 +18,7 @@
 #include <execution>
 #include <functional>
 #include <queue>
+#include <ranges>
 
 using namespace std;
 
