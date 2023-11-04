@@ -21,7 +21,7 @@ inline void DisplayTime(double seconds)
 	}
 	else
 	{
-		std::cout << seconds * 1'000'000 << " µs";
+		std::cout << seconds * 1'000'000 << " us";
 	}
 }
 

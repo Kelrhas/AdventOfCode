@@ -29,7 +29,8 @@ namespace Day3
 
 		int iGamma	 = bitset<NB_CHAR>(gamma).to_ulong();
 		int iEpsilon = bitset<NB_CHAR>(epsilon).to_ulong();
-		cout << "Part1: " << iGamma << "*" << iEpsilon << "=" << iGamma * iEpsilon << endl;
+		//cout << "Part1: " << iGamma << "*" << iEpsilon << "=" << iGamma * iEpsilon << endl;
+		cout << "Part1: " << iGamma * iEpsilon << endl;
 
 		vector<string> copy = lines;
 
@@ -96,6 +97,7 @@ namespace Day3
 		}
 		Assert(copy.size() == 1);
 		co2 = bitset<NB_CHAR>(copy[0]).to_ulong();
-		cout << "Part2: " << oxy << "*" << co2 << "=" << oxy * co2 << endl;
+		//cout << "Part2: " << oxy << "*" << co2 << "=" << oxy * co2 << endl;
+		cout << "Part2: " << oxy * co2 << endl;
 	}
 } // namespace Day3
