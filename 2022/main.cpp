@@ -1,10 +1,6 @@
 #include "stdafx.h"
-HANDLE hConsole;
 
-#include <assert.h>
-#include "stl_includes.h"
-#include "Types.h"
-#include "Util.h"
+HANDLE hConsole;
 
 namespace Day1	{ void Solve(); }
 namespace Day2	{ void Solve(); }
@@ -47,7 +43,8 @@ int main(int argc, char **argv)
 	cout << "Hello" << endl << endl;
 	SetConsoleTextAttribute(hConsole, CONSOLE_WHITE);
 
-	if (day < 0 || day > 25)
+	cout << "Year 2022" << endl;
+	while (day < 0 || day > 25)
 	{
 		cout << "Enter which day to test, 0 for all" << endl << ">";
 		cin >> day;

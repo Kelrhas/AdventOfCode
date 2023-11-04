@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstdint>
+#include <iostream>
 
 using U8  = uint8_t;
 using U16 = uint16_t;

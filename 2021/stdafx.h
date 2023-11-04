@@ -9,5 +9,4 @@ using namespace std;
 #include "stl_includes.h"
 
 
-
 extern HANDLE hConsole;

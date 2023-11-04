@@ -1,6 +1,7 @@
 #pragma once
 
 #define Assert(exp) {bool b = (exp); if(!b) __debugbreak();}
+#define TODO(msg) Assert(false);
 
 #include <iostream>
 
