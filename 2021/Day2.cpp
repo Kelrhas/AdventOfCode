@@ -24,7 +24,7 @@ namespace Day2
 		cout << "Part1:" << pos.x * pos.y << endl;
 
 		is.close();
-		is.open("Data2.h");
+		is.open("Data2.txt");
 
 		int aim = 0;
 		pos		= { 0, 0 };
