@@ -31,3 +31,10 @@ struct powers
 {
 	constexpr T operator()(T const &lhs, T const &rhs) const { return (T)std::pow(lhs, rhs); }
 };
+
+constexpr int Factorial(int i)
+{
+	if (i <= 1)
+		return 1;
+	return i * Factorial(i - 1);
+}

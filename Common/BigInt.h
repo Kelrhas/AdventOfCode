@@ -410,7 +410,7 @@ public:
 		}
 		return b;
 	}
-	friend BigInt Factorial(int n)
+	friend BigInt Factorial(BigInt n)
 	{
 		BigInt f(1);
 		for (int i = 2; i <= n; i++)
