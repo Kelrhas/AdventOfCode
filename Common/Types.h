@@ -64,6 +64,11 @@ T ChebyshevDist(const glm::vec<N, T, Q> &lhs, const glm::vec<N, T, Q> &rhs)
 	return dist;
 }
 
+template<typename T>
+constexpr int Sign(T val)
+{
+	return (T(0) < val) - (val < T(0));
+}
 
 
 template<size_t Size, typename T>
