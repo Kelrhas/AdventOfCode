@@ -4,7 +4,7 @@ namespace Day1
 {
 	void Solve()
 	{
-		cout << "--- Day 1:  ---" << endl;
+		cout << "--- Day 1: Trebuchet?! ---" << endl;
 		ifstream is("Data1.txt");
 
 		int sum1 = 0;

@@ -4,7 +4,7 @@ namespace Day2
 {
 	void Solve()
 	{
-		cout << "--- Day 2:  ---" << endl;
+		cout << "--- Day 2: Cube Conundrum ---" << endl;
 		ifstream is("Data2.txt");
 
 		string sLine = "Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green";
