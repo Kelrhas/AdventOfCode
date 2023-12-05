@@ -177,8 +177,5 @@ namespace Day5
 
 		cout << "Part1: " << itMin1->first << endl;
 		cout << "Part2: " << itMin2->uStart << endl;
-		// 48'750'422 too high
-		// 2'254'686 but why
-		// 346'625 too low
 	}
 } // namespace Day5
