@@ -100,10 +100,6 @@ namespace Day5
 							}
 							else
 							{
-								if (it == vecRanges.begin())
-								{
-									int a = 10;
-								}
 								// only start is in the range, we need to split our range in two
 								SeedRange left;
 								left.uStart	  = uMapStartDest + uDist;
