@@ -48,8 +48,15 @@ std::basic_ostream<cT> &operator<<(std::basic_ostream<cT> &out, glm::ivec3 const
 	return out;
 }
 
+/// <summary>
+/// Compute the Manhattan distance, taking only horizontal and vertical movement.
+/// Also called taxicab or L1 metric
+/// </summary>
+/// <param name="lhs"></param>
+/// <param name="rhs"></param>
+/// <returns>Manhattan distance between *lhs* and *rhs*</returns>
 template<int N, typename T, glm::qualifier Q>
-T ManhatanDist(const glm::vec<N, T, Q> &lhs, const glm::vec<N, T, Q> &rhs)
+T ManhattanDist(const glm::vec<N, T, Q> &lhs, const glm::vec<N, T, Q> &rhs)
 {
 	T dist = 0;
 	for (int i = 0; i < N; ++i)
@@ -57,6 +64,13 @@ T ManhatanDist(const glm::vec<N, T, Q> &lhs, const glm::vec<N, T, Q> &rhs)
 	return dist;
 }
 
+/// <summary>
+/// Compute the Chebyshev distance, taking only horizontal, vertical and diagonal movement.
+/// Also called chessboard distance (the movement of the queen) or L-infinite metric
+/// </summary>
+/// <param name="lhs"></param>
+/// <param name="rhs"></param>
+/// <returns>Chebyshev distance between *lhs* and *rhs*</returns>
 template<int N, typename T, glm::qualifier Q>
 T ChebyshevDist(const glm::vec<N, T, Q> &lhs, const glm::vec<N, T, Q> &rhs)
 {

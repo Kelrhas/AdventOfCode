@@ -29,7 +29,7 @@ namespace Day23
 			Pos targetPos { TargetPosX(), ROOM_DEPTH };
 			if (!InGoodRoom())
 				targetPos.y = -targetPos.y;
-			return MoveCost() * ManhatanDist(pos, targetPos);
+			return MoveCost() * ManhattanDist(pos, targetPos);
 		}
 
 		bool operator==(const Amphipod &rhs) const { return eType == rhs.eType && pos == rhs.pos; }
@@ -393,7 +393,7 @@ namespace Day23
 						auto  itNewPod = find(newState.begin(), newState.end(), currentPod);
 						itNewPod->pos  = testPos;
 
-						U64 energyMove = ManhatanDist(testPos, currentPod.pos) * currentPod.MoveCost();
+						U64 energyMove = ManhattanDist(testPos, currentPod.pos) * currentPod.MoveCost();
 						AddCandidate(newState, uCurrentEnergy + energyMove, currentState);
 						testPos.x--;
 					}
@@ -412,7 +412,7 @@ namespace Day23
 						auto  itNewPod = find(newState.begin(), newState.end(), currentPod);
 						itNewPod->pos  = testPos;
 
-						U64 energyMove = ManhatanDist(testPos, currentPod.pos) * currentPod.MoveCost();
+						U64 energyMove = ManhattanDist(testPos, currentPod.pos) * currentPod.MoveCost();
 						AddCandidate(newState, uCurrentEnergy + energyMove, currentState);
 						testPos.x++;
 					}

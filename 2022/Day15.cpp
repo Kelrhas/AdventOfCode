@@ -24,7 +24,7 @@ namespace Day15
 			glm::ivec2 sensor, beacon;
 			sscanf_s(line.c_str(), "Sensor at x=%d, y=%d: closest beacon is at x=%d, y=%d", &sensor.x, &sensor.y, &beacon.x, &beacon.y);
 
-			const int dist = ManhatanDist(sensor, beacon);
+			const int dist = ManhattanDist(sensor, beacon);
 
 			// min = glm::min(min,
 			sensors.push_back(Sensor { sensor, beacon, dist, sensor.x - dist });
@@ -68,7 +68,7 @@ namespace Day15
 				bool	   atRange = false;
 				for (const auto &[sensor, beacon, dist, minX] : sensors)
 				{
-					if (ManhatanDist(pos, sensor) <= dist)
+					if (ManhattanDist(pos, sensor) <= dist)
 					{
 						atRange = true;
 						break;

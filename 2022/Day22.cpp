@@ -663,7 +663,7 @@ namespace Day22
 				static constexpr glm::ivec2 vRight(1, 0);
 				static constexpr glm::ivec2 vUp(0, -1);
 				static constexpr glm::ivec2 vDown(0, 1);
-				int							dist = ManhatanDist(quad1, quad2);
+				int							dist = ManhattanDist(quad1, quad2);
 
 				if (dist == 1) // faces touching
 				{
