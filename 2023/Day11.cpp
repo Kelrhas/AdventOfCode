@@ -57,7 +57,7 @@ namespace Day11
 				U64 baseDist = ManhattanDist(vPos1, vPos2);
 				U64 dist2	 = baseDist;
 
-				// add each row and columns that needs to be doubled
+				// add each row and columns that needs to be expanded
 				{
 					const glm::ivec2 &vStart = (vPos1.y <= vPos2.y ? vPos1 : vPos2);
 					const glm::ivec2 &vEnd	 = (vPos1.y <= vPos2.y ? vPos2 : vPos1);
