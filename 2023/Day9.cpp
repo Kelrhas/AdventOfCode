@@ -4,7 +4,7 @@ namespace Day9
 {
 	void Solve()
 	{
-		cout << "--- Day 9:  ---" << endl;
+		cout << "--- Day 9: Mirage Maintenance ---" << endl;
 		ifstream is("Data9.txt");
 
 		string sLine;
